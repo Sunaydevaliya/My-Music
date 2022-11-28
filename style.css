@@ -39,7 +39,7 @@ nav ul li{
     padding:0 8px;
 }
 .container{
-    min-height: 62vh;
+    min-height: 63vh;
     margin: 12px auto;
     width: 70%;
     background-color: black;
@@ -127,4 +127,10 @@ nav ul li{
 .songInfo img{
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+
+.copyright{
+    /* background-color:rgb(60, 0, 0); */
+    /* color:white; */
+    padding-top:12px;
 }

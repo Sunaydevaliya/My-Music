@@ -9,15 +9,15 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let masterSongName = document.getElementById("masterSongName");
 
 let songs= [
-    {songName:"Aaja ve mahiya - Imrankhan" ,coverPath:"/covers/1.jpg", filePath:"/songs/1.mp3"},
-    {songName:"Kesariya" ,coverPath:"/covers/2.jpg", filePath:"/songs/2.mp3"},
-    {songName:"Bewafa" ,coverPath:"/covers/3.jpg", filePath:"/songs/3.mp3"},
-    {songName:"Dil tod ke" ,coverPath:"/covers/4.jpg", filePath:"/songs/4.mp3"},
-    {songName:"Rishte naate" ,coverPath:"/covers/5.jpg", filePath:"/songs/5.mp3"},
-    {songName:"Dholna" ,coverPath:"/covers/6.jpg", filePath:"/songs/6.mp3"},
-    {songName:"Amplifier" ,coverPath:"/covers/7.jpg", filePath:"/songs/7.mp3"},
-    // {songName:"Let me love you" ,coverPath:"/covers/8.jpg", filePath:"/songs/8.mp3"},
-    // {songName:"Tera ban jaunga" ,coverPath:"/covers/9.jpg", filePath:"/songs/9.mp3"},
+    {songName:"Aaja Ve Mahiya - Imrankhan" ,coverPath:"/covers/1.jpg", filePath:"/songs/1.mp3"},
+    {songName:"Tera Ban Jaunga - Kabir singh" ,coverPath:"/covers/2.jpg", filePath:"/songs/2.mp3"},
+    {songName:"Bewafa - Imrankhan" ,coverPath:"/covers/3.jpg", filePath:"/songs/3.mp3"},
+    {songName:"Dil Tod Ke - B Praak" ,coverPath:"/covers/4.jpg", filePath:"/songs/4.mp3"},
+    {songName:"Soch - Hardy sandhu" ,coverPath:"/covers/5.jpg", filePath:"/songs/5.mp3"},
+    {songName:"Kehndi Hundi Si - AP Dhillon" ,coverPath:"/covers/6.jpg", filePath:"/songs/6.mp3"},
+    {songName:"Nira ishq - GURI" ,coverPath:"/covers/7.jpg", filePath:"/songs/7.mp3"},
+    {songName:"Let me love you - Bieber" ,coverPath:"/covers/8.jpg", filePath:"/songs/8.mp3"},
+    // {songName:"Maiyya Mainu - Jersey" ,coverPath:"/covers/9.jpg", filePath:"/songs/9.mp3"},
     // {songName:"Nira ishq" ,coverPath:"/covers/10.jpg", filePath:"/songs/10.mp3"},
 ]
 
@@ -79,7 +79,7 @@ Array.from(document.getElementsByClassName("songItemplay")).forEach((element)=>{
 });
 
 document.getElementById("next").addEventListener("click",()=>{
-    if(audioIndex>=6){
+    if(audioIndex>=8){
         audioIndex = 0;
     }
     else{
